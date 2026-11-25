@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Radial menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="menu" hidden>
+        <svg id="wheel" viewBox="0 0 400 400" aria-label="Radial menu"></svg>
+        <div class="footer">
+            <div id="hint">Menu</div>
+            <div id="pages" hidden>
+                <button id="prev" aria-label="Forrige side">‹</button>
+                <span id="count"></span>
+                <button id="next" aria-label="Næste side">›</button>
+            </div>
+            <div class="keys">ESC · Luk menu</div>
+        </div>
+    </main>
+    <script src="icons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
